@@ -1,0 +1,16 @@
+/* App specific styles */
+
+/* Hero section background effect */
+.hero-bg {
+  background: radial-gradient(circle at 50% 50%, rgba(255, 107, 0, 0.15) 0%, transparent 50%);
+  animation: pulse 3s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
